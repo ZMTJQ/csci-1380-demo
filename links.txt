@@ -1,0 +1,1 @@
+# No CCC-managed symlinks are required for this course fixture.

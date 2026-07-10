@@ -1,0 +1,2 @@
+# CS1380 already ships the toolchain in the course-specific container image.
+# No additional apt packages are required for CCC-managed startup.
