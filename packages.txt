@@ -1,2 +1,21 @@
-# CS1380 already ships the toolchain in the course-specific container image.
-# No additional apt packages are required for CCC-managed startup.
+# CS1380 apt-layer dependencies extracted from the Dockerfile.
+# The Node/AWS bootstrap and npm/global tooling remain outside this manifest for now.
+ca-certificates
+curl
+git
+zip
+bc
+jq
+unzip
+lsof
+shellcheck
+build-essential
+python3-pygments
+python3-pip
+texlive
+texlive-latex-extra
+texlive-fonts-recommended
+texlive-fonts-extra
+texlive-xetex
+nodejs
+awscli
