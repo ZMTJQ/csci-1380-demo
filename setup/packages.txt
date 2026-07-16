@@ -18,4 +18,3 @@ texlive-fonts-recommended
 texlive-fonts-extra
 texlive-xetex
 nodejs
-awscli
